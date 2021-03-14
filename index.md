@@ -7,5 +7,5 @@
 - 具体实现
   - bin 文件，npm link 链接命令到全局
   - 处理命令行（commander），例如 init 命令
-  - 下载模板（download-git-repo）
-  - 命令行交互（inquirer）：例如输入描述、作者信息、模板中是否使用 eslint 等
+  - 命令行交互（inquirer）：例如输入描述、作者信息 等
+  - 下载模板（download-git-repo）：可以先拉下来，根据命令行交互（如模板中是否使用 eslint），生成最终所需模板代码，并把之前的 hbs 删掉
